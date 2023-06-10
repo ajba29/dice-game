@@ -1,6 +1,9 @@
-const btn = document.getElementById("btn");
+var btn = document.getElementById("btn");
+var audio = document.getElementById("btn-sound");
 
 btn.addEventListener("click",function(){
+    audio.currentTime = 0;
+    audio.play();
     var randomNumber1 = getRandomNumber(1, 6).toString();
     console.log(randomNumber1);
   
