@@ -1,0 +1,53 @@
+.center{
+    text-align: center;
+    margin: 20px;
+}
+
+.title{
+    color: white;
+    font-size: 5rem;
+}
+
+.background{
+    background-color: lightblue;
+}
+
+.flex-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.dice{
+    align-items: center;
+    background-color: #eaeaea;
+    margin: 50px;
+    padding: 100px;
+    border-radius: 5%;
+}
+
+.number{
+    padding: 10px;
+    font-size: 5rem;
+}
+
+#winner{
+    font-size: 3rem;
+    color: lightblue;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.rule{
+
+    color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn{
+    border: 0;
+    border-radius: 5px;
+    padding: 10px
+}
